@@ -14,8 +14,7 @@
             "cwd": "${workspaceFolder}",
             "environment": [],
             "externalConsole": false,
-            "MIMode": "lldb",
-            "preLaunchTask": "build"
+            "MIMode": "lldb"
         },
         {
             "name": "cmake Launch",
