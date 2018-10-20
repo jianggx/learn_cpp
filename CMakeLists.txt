@@ -11,7 +11,7 @@ add_subdirectory(ToDoCore)
 
 add_executable(helloworld helloWorld.cpp)
 add_executable(cpp11 cpp11.cpp)
-add_executable(cpp14 cpp14.cpp add.cpp)
+add_executable(cpp14 cpp14.cpp src/add.cpp)
 
 add_executable(toDo ToDo_Main.cpp)
 target_link_libraries(toDo toDoCore)
