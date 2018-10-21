@@ -5,10 +5,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "cpp 11",
+            "name": "as file basename",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/build/cpp11",
+            "program": "${workspaceFolder}/build/${fileBasenameNoExtension}",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
